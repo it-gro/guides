@@ -13,7 +13,6 @@ Basic Principles of Redux:
 2. The state is read only, the only way to change state is to dispatch an action.
 3. State can only be changed by pure functions or in another term: Reducers. Redux Reducers take in the previous state and an action object and returns the next state.
 
-
 In practical terms how do we use Redux exactly?
 ### RULE 1
 #### Where is this state stored? Redux supplies you a handy function called
@@ -84,4 +83,11 @@ Redux does get more complicated but if you understand these principles then you 
 
 #### More Information:
 
+##### Do you really need Redux?
+[Dan Abramov](https://github.com/gaearon), creator of Redux, wrote some time ago great article [You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367). You should check it first because, well, you might not need it.
+
 For more information head to [http://redux.js.org/](http://redux.js.org/)
+
+### Resources
+
+- [A course from Dan Abramov, the author of Redux.](https://egghead.io/courses/getting-started-with-redux)

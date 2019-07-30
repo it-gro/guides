@@ -2,9 +2,15 @@
 title: DDoS Distributed Denial of Service
 ---
 
-## DDoS (Distributed Denial of Service)
+A denial of service(DOS) attack is when the attacker attempts to disrupt the services of a server by bombarding it with multiple fake requests and preventing actual users from accessing the service. A Distributed DOS attack is when the attack happens from multiple locations at once, making it much more difficult for the cyber-security team to detect and handle the attack.
+
 A Distributed Denial of Service (DDoS) attack is an attempt to make an online service or a website unavailable by overloading it with huge floods of traffic generated from multiple sources.
+
 Unlike a Denial of Service (DoS) attack, in which one computer and one Internet connection is used to flood a targeted resource with packets, a DDoS attack uses many computers and many Internet connections, often distributed globally in what is referred to as a botnet.
+
+DDoS attacks are usually targeted at huge corporations where the denial of a service for a few minutes can translate to millions of dollars lost.
+
+There are several kinds of Ddos attacks and the best attack is determined by examining the vulnerabilites of the target.
 
 ### Types of DDoS Attacks
 DDoS attacks can be broadly categorized into three categories −
@@ -15,7 +21,6 @@ DDoS attacks can be broadly categorized into three categories −
 
 ### Volume-Based Attacks
 Volume-based attacks include TCP floods, UDP floods, ICMP floods, and other spoofedpacket floods. These are also called Layer 3 & 4 * Attacks. Here, an attacker tries to saturate the bandwidth of the target site. The attack magnitude is measured in Bits per Second (bps).
-
 
 * **UDP Flood** − A UDP flood is used to flood random ports on a remote host with numerous UDP packets, more specifically port number 53. Specialized firewalls can be used to filter out or block malicious UDP packets.
 
@@ -66,4 +71,6 @@ You can take the help from your system administrator to understand these points 
 
 ### More Information
 
-<a href='https://www.us-cert.gov/ncas/tips/ST04-015'>Understanding Denial-of-Service Attacks</a><br>
+* [Understanding Denial-of-Service Attacks](https://www.us-cert.gov/ncas/tips/ST04-015)
+* [Visualisation of DDoS Attacks Worldwide](http://www.digitalattackmap.com/#anim=1&color=0&country=ALL&list=0&time=17462&view=map "Visualisation of DDoS Attacks Worldwide")
+* [Kotaku Article about DDoS](https://kotaku.com/how-ddos-attacks-work-and-why-theyre-so-hard-to-stop-1676445620)

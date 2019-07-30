@@ -71,9 +71,14 @@ executable file (note the exe extension).
 
 3. Type `./helloWorld` in the terminal window to run the executable file
 
-g++ is the standard Linux compiler and is a great utility. It comes packaged with the operating system. 
+g++ is the standard Linux compiler and is a great utility. It comes packaged with the operating system.
 
+NOTE:
+to compile and execute your code directly, run
+`g++ -o helloWorld helloWorld.cpp; ./helloWorld`
+so when you need to compile and run your code multiple times,
+up arrow-enter 
 ____________
 
 There are a number of different types of compilers. The two listed are the two that are usually packaged with the Windows
-or Linux/OSX. In addition, you may write c++ on 3rd party software for game development like Unreal Engine.
+or Linux/OSX.
